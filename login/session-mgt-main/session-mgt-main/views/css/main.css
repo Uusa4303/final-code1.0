@@ -1,0 +1,203 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+body{
+	text-align: center !important;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+
+h1 { font-size: 18px; }
+h6 { font-size: 13px; }
+
+.profile-card {
+    font: 12px "Myriad Pro";
+}
+.profile-card .profile-cover {
+    background: url('https://img.freepik.com/free-vector/coronavirus-border-closure-concept-illustration_114360-1753.jpg?w=996&t=st=1683803630~exp=1683804230~hmac=cb43df80fabf6b252ad9e79b4e199fc1d12a52dfa796c155231c97996bed9e40') no-repeat center;
+    position: relative;
+    height: 700px;
+    width: 900px;
+    
+    
+}
+
+.profile-card .upload-button {
+    position: absolute;
+    border: none;
+    padding-inline: 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 6px;
+    top: 50%;
+    left: 150%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+
+
+
+
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
+
+    transition: all .5s;
+    -moz-transition: all .5s; /* Firefox 4 */
+    -webkit-transition: all .5s; /* Safari and Chrome */
+    -o-transition: all .5s; /* Opera */
+}
+.profile-card .profile-cover:hover {
+    filter: none;
+    filter: none;
+    -webkit-filter: none;
+
+}
+.profile-card .profile-cover .profile-avatar {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border: 5px solid #000000;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: -80px auto 0;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    transition: all .5s;
+    -moz-transition: all .5s; /* Firefox 4 */
+    -webkit-transition: all .5s; /* Safari and Chrome */
+    -o-transition: all .5s; /* Opera */
+}
+
+.profile-avatar img {
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    
+}
+
+
+.profile-card .profile-cover .profile-details {
+    background: rgba(0,0,0,0.4);
+    border-top: 1px solid rgba(0,0,0,0.5);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0 7px;
+}
+
+.welcome-image{
+    border-radius:20px;
+    margin:30px;
+    height:400px;
+    width:400px;
+}
+.background-container{
+    height:500px;
+    width:100vw;
+}
+
+.welcome-heading{
+    font-family:"Roboto";
+    text-align:center;
+    color:#000000;
+    font-weight:bold;
+    padding:10px;
+    font-size:30px;
+}
+.welome-paragraph{
+    font-family:"Roboto";
+    color:#000000;
+    font-weight:bold;
+}
+.login-container{
+    background-size:cover;
+}
+.login-content-container{
+    background-size:cover;
+    padding-top:80px;
+}
+.login-heading{
+    text-align:center;
+    font-family:"Roboto";
+    color:#000000;
+    font-weight:bold;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .log{
+    font-size: 20px;
+  }
