@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Plate Detection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container left">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center mt-5 text-white">Number Plate Detection</h1>
+            </div>
+        </div>
+    
+        <form id="upload-form" name="upload" method="post" action="#" accept-charset="utf-8" enctype="multipart/form-data" class="mt-5">
+            <div class="form-group">
+                <label for="image-input" class="text-white">Upload an image:</label>
+                <div class="input-group">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="image-input" name="image" accept=".jpg, .jpeg, .png">
+                        <label class="custom-file-label" for="image-input">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Detect Number Plate</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+        <div id="result-container" class="mt-5">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border text-primary" role="status" style="display:none;">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <div id="result" class="mt-3"></div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
